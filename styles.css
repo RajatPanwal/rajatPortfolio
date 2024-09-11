@@ -13,6 +13,11 @@
     --bgOrange: #e84949;
   }
 
+  .bodyclass{
+    background-image: url(./Images/bg4.webp);
+    background-size: contain;
+  }
+
 .wrapper{
     height: 100vh;
     overflow-y: auto;
