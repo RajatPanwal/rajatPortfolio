@@ -18,16 +18,11 @@
     overflow-y: auto;
     overflow-x: hidden;
     position: relative;
+    background-image: url(./Images/bg1.webp);
+    background-size: contain;
     /* background-image: linear-gradient( 58.2deg,  rgba(40,91,212,0.73) -3%, rgba(171,53,163,0.45) 49.3%, rgba(255,204,112,0.37) 97.7% ); */
-    /* background-image: linear-gradient( 135deg, #FFF886 10%, #F072B6 100%); */
-    /* background-image: linear-gradient( 58.2deg,  rgba(40,91,212,0.73) -3%, rgba(171,53,163,0.45) 49.3%, rgba(255,204,112,0.37) 97.7% ); */
-    /* background: rgb(167,73,232);
-    background: linear-gradient(0deg, rgba(167,73,232,0.4360337885154062) 0%, rgba(195,34,166,0.3884147408963585) 67%, rgba(228,228,71,0.28197216386554624) 100%); */
-    background: rgb(195,34,166);
-background: linear-gradient(0deg, rgba(195,34,166,0.21194415266106448) 37%, rgba(228,228,71,0.23435311624649857) 100%);
-background: rgb(195,34,166);
-background: linear-gradient(0deg, rgba(195,34,166,0.21194415266106448) 37%, rgba(215,195,199,0.30438112745098034) 67%, rgba(228,228,71,0.23435311624649857) 100%);
-
+    /* background: linear-gradient(0deg, rgba(195,34,166,0.21194415266106448) 37%, rgba(215,195,199,0.30438112745098034) 67%, rgba(228,228,71,0.23435311624649857) 100%); */
+    
 }
 
 .container{
@@ -66,9 +61,17 @@ hr{
 }
 
 .logo-text{
+    font-family: fantasy;
     margin-left: 0rem;
     margin-bottom: -0.5rem;
     font-size: 28px;
+    color: #4e45d5;
+    font-weight: 1000;
+    cursor: pointer;
+}
+.logo-text:hover{
+    scale: 1.05;
+    transition: 0.3s;
 }
 
 .nav-items{
