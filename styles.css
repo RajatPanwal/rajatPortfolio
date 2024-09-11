@@ -356,7 +356,9 @@ a{
 
 .project-section{
     /* background-color:  rgb(231,231,231); */
-    background-color:  rgba(231, 231, 231, 0.491);
+/*     background-color:  rgba(231, 231, 231, 0.491); */
+    backdrop-filter: blur(14px); 
+    background-color: rgba(255, 255, 255, 0.2); 
     margin-top:4rem;
 }
 
@@ -368,10 +370,6 @@ a{
     text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3);
 
 }
-
-/* #procoder{
-    drop-shadow=""
-} */
 
 .project-container{
     max-width: 1120px;
