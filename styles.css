@@ -150,10 +150,11 @@ a{
 }
 
 .hero-section-desc{
+    font-family: Georgia, serif;
     margin-top: 1rem;
     width: 70%;
-    font-weight: 1000;
-    color: #2a3151;
+    font-weight: 500;
+    color: #21263e;
     letter-spacing: .2rem;
     word-spacing: 7px;
 }
