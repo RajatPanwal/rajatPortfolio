@@ -355,7 +355,8 @@ a{
 }
 
 .project-section{
-    background-color:  rgb(231,231,231);
+    /* background-color:  rgb(231,231,231); */
+    background-color:  rgba(231, 231, 231, 0.491);
     margin-top:4rem;
 }
 
