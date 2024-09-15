@@ -152,7 +152,8 @@ a{
 }
 
 .role{
-    color: #4e45d5;
+/*     color: #4e45d5; */
+        color: var(--bgOrange);
     font-weight: 800;
 }
 
