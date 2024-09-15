@@ -224,7 +224,7 @@ a{
 
   .user-image{
     padding: 2.5rem;
-    filter: grayscale(1);
+/*     filter: grayscale(1); */
     transition: all 1s;
     animation: scaleimage 5s linear infinite ;
     border-radius: 1rem;
@@ -235,17 +235,17 @@ a{
 
   @keyframes scaleimage {
     0%{
-        filter: grayscale(1);
+/*         filter: grayscale(1); */
         transform: scale(1);
     }
     50%{
-        filter: grayscale(0);
+/*         filter: grayscale(0); */
         transform: scale(1.1);
         box-shadow: 3px 3px 10px black;
     }
     100%{
         transform: scale(1);
-        filter: grayscale(1);
+/*         filter: grayscale(1); */
     }
     
   }
